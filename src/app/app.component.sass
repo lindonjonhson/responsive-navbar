@@ -1,0 +1,25 @@
+@import ../styles
+
+navbar
+    position: fixed
+    //background: $bg-primary
+    transition: width 200ms ease
+    //&:hover
+    //    width: 17rem
+
+
+@media only screen and ( max-width: 600px )
+
+    navbar
+        bottom: 0
+        width: 100vw
+        height: 5rem
+
+@media only screen and ( min-width: 600px )
+    
+    navbar
+        width: 4rem
+        //width: 17rem
+        height: 100vh
+        &:hover
+            width: 17rem
